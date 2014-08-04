@@ -19,6 +19,12 @@
 		20C53816198DD4BC00A63A89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C537FE198DD4BC00A63A89 /* UIKit.framework */; };
 		20C5381E198DD4BC00A63A89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 20C5381C198DD4BC00A63A89 /* InfoPlist.strings */; };
 		20C53820198DD4BC00A63A89 /* BrickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C5381F198DD4BC00A63A89 /* BrickTests.m */; };
+		20C5382A198DD55A00A63A89 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20C53829198DD55A00A63A89 /* SpriteKit.framework */; };
+		20C5382D198DD58700A63A89 /* BRGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C5382C198DD58700A63A89 /* BRGameViewController.m */; };
+		20C53832198DD63000A63A89 /* BRGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C53831198DD63000A63A89 /* BRGameScene.m */; };
+		20C53835198DD64500A63A89 /* BRPaddleNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C53834198DD64500A63A89 /* BRPaddleNode.m */; };
+		20C53838198DD65000A63A89 /* BRBallNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C53837198DD65000A63A89 /* BRBallNode.m */; };
+		20C5383B198DD65800A63A89 /* BRBrickNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C5383A198DD65800A63A89 /* BRBrickNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,17 @@
 		20C5381B198DD4BC00A63A89 /* BrickTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrickTests-Info.plist"; sourceTree = "<group>"; };
 		20C5381D198DD4BC00A63A89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		20C5381F198DD4BC00A63A89 /* BrickTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrickTests.m; sourceTree = "<group>"; };
+		20C53829198DD55A00A63A89 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		20C5382B198DD58700A63A89 /* BRGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRGameViewController.h; sourceTree = "<group>"; };
+		20C5382C198DD58700A63A89 /* BRGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRGameViewController.m; sourceTree = "<group>"; };
+		20C53830198DD63000A63A89 /* BRGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRGameScene.h; sourceTree = "<group>"; };
+		20C53831198DD63000A63A89 /* BRGameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRGameScene.m; sourceTree = "<group>"; };
+		20C53833198DD64500A63A89 /* BRPaddleNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRPaddleNode.h; sourceTree = "<group>"; };
+		20C53834198DD64500A63A89 /* BRPaddleNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRPaddleNode.m; sourceTree = "<group>"; };
+		20C53836198DD65000A63A89 /* BRBallNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBallNode.h; sourceTree = "<group>"; };
+		20C53837198DD65000A63A89 /* BRBallNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRBallNode.m; sourceTree = "<group>"; };
+		20C53839198DD65800A63A89 /* BRBrickNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRBrickNode.h; sourceTree = "<group>"; };
+		20C5383A198DD65800A63A89 /* BRBrickNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRBrickNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20C5382A198DD55A00A63A89 /* SpriteKit.framework in Frameworks */,
 				20C537FD198DD4BC00A63A89 /* CoreGraphics.framework in Frameworks */,
 				20C537FF198DD4BC00A63A89 /* UIKit.framework in Frameworks */,
 				20C537FB198DD4BC00A63A89 /* Foundation.framework in Frameworks */,
@@ -96,6 +114,7 @@
 		20C537F9198DD4BC00A63A89 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				20C53829198DD55A00A63A89 /* SpriteKit.framework */,
 				20C537FA198DD4BC00A63A89 /* Foundation.framework */,
 				20C537FC198DD4BC00A63A89 /* CoreGraphics.framework */,
 				20C537FE198DD4BC00A63A89 /* UIKit.framework */,
@@ -109,6 +128,10 @@
 			children = (
 				20C53809198DD4BC00A63A89 /* BRAppDelegate.h */,
 				20C5380A198DD4BC00A63A89 /* BRAppDelegate.m */,
+				20C5382B198DD58700A63A89 /* BRGameViewController.h */,
+				20C5382C198DD58700A63A89 /* BRGameViewController.m */,
+				20C5382E198DD61A00A63A89 /* Scenes */,
+				20C5382F198DD61F00A63A89 /* Nodes */,
 				20C5380C198DD4BC00A63A89 /* Images.xcassets */,
 				20C53801198DD4BC00A63A89 /* Supporting Files */,
 			);
@@ -142,6 +165,28 @@
 				20C5381C198DD4BC00A63A89 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20C5382E198DD61A00A63A89 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				20C53830198DD63000A63A89 /* BRGameScene.h */,
+				20C53831198DD63000A63A89 /* BRGameScene.m */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		20C5382F198DD61F00A63A89 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				20C53833198DD64500A63A89 /* BRPaddleNode.h */,
+				20C53834198DD64500A63A89 /* BRPaddleNode.m */,
+				20C53836198DD65000A63A89 /* BRBallNode.h */,
+				20C53837198DD65000A63A89 /* BRBallNode.m */,
+				20C53839198DD65800A63A89 /* BRBrickNode.h */,
+				20C5383A198DD65800A63A89 /* BRBrickNode.m */,
+			);
+			name = Nodes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,8 +285,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20C53838198DD65000A63A89 /* BRBallNode.m in Sources */,
+				20C5383B198DD65800A63A89 /* BRBrickNode.m in Sources */,
+				20C53832198DD63000A63A89 /* BRGameScene.m in Sources */,
+				20C5382D198DD58700A63A89 /* BRGameViewController.m in Sources */,
 				20C5380B198DD4BC00A63A89 /* BRAppDelegate.m in Sources */,
 				20C53807198DD4BC00A63A89 /* main.m in Sources */,
+				20C53835198DD64500A63A89 /* BRPaddleNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +488,7 @@
 				20C53825198DD4BC00A63A89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20C53826198DD4BC00A63A89 /* Build configuration list for PBXNativeTarget "BrickTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +497,7 @@
 				20C53828198DD4BC00A63A89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
